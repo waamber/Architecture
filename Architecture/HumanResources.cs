@@ -20,5 +20,9 @@ namespace Architecture
         {
             return this.Budget += budget + 10000.00;
         }
+        
+    class HumanResources : DepartmentBase
+    {
+        public Dictionary<string, string> policies = new Dictionary<string, string>();
     }
 }

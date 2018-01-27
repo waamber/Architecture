@@ -18,6 +18,5 @@ namespace Architecture
         {
             return BaseBudget = budget;
         }
-        
     }
 }
